@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "css-layering-vite-plugin",
+  "name": "vite-plugin-css-layering",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -40,6 +40,8 @@
     "node": ">=18.0.0"
   },
   "keywords": [
+    "vite-plugin",
+    "rolldown-plugin",
     "vite",
     "rollup",
     "plugin",
@@ -54,12 +56,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kburich/css-layering-vite-plugin.git"
+    "url": "git+https://github.com/kburich/vite-plugin-css-layering.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kburich/css-layering-vite-plugin/issues"
+    "url": "https://github.com/kburich/vite-plugin-css-layering/issues"
   },
-  "homepage": "https://github.com/kburich/css-layering-vite-plugin#readme"
+  "homepage": "https://github.com/kburich/vite-plugin-css-layering#readme"
 }

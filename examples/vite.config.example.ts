@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import { cssLayeringPlugin } from 'css-layering-vite-plugin';
+import { cssLayeringPlugin } from 'vite-plugin-css-layering';
 
 export default defineConfig({
   plugins: [

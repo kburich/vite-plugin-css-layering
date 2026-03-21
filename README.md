@@ -14,11 +14,11 @@ A Vite/Rollup plugin that automatically wraps CSS modules in named [CSS Cascade 
 ## Installation
 
 ```bash
-pnpm add css-layering-vite-plugin
+pnpm add vite-plugin-css-layering
 # or
-npm install css-layering-vite-plugin
+npm install vite-plugin-css-layering
 # or
-yarn add css-layering-vite-plugin
+yarn add vite-plugin-css-layering
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Add the plugin to your `vite.config.ts`:
 
 ```typescript
 import { defineConfig } from 'vite';
-import { cssLayeringPlugin } from 'css-layering-vite-plugin';
+import { cssLayeringPlugin } from 'vite-plugin-css-layering';
 
 export default defineConfig({
   plugins: [
@@ -50,7 +50,7 @@ export default defineConfig({
 Add the plugin to your `rollup.config.js`:
 
 ```javascript
-import { cssLayeringPlugin } from 'css-layering-vite-plugin';
+import { cssLayeringPlugin } from 'vite-plugin-css-layering';
 
 export default {
   plugins: [
@@ -311,3 +311,4 @@ MIT
 ## Related Projects
 
 - [css-layering-webpack-plugin](https://github.com/kburich/css-layering-webpack-plugin) - Webpack version of this plugin
+- [vite-plugin-css-layering](https://github.com/kburich/vite-plugin-css-layering) - This plugin on GitHub

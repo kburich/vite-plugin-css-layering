@@ -2,7 +2,7 @@ import { minimatch } from "minimatch";
 import type { Plugin, IndexHtmlTransformResult } from "vite";
 
 const DEFAULT_LAYER_ASSET_PATH = "/static/css/layers.css";
-const PLUGIN_NAME = "css-layering-vite-plugin";
+const PLUGIN_NAME = "vite-plugin-css-layering";
 
 export interface Layer {
   path?: string | string[];
