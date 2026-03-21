@@ -304,6 +304,10 @@ CSS Cascade Layers are supported in all modern browsers:
 
 For older browsers, consider using a CSS post-processor or polyfill.
 
+## Disclaimer
+
+This plugin was created by porting my [css-layering-webpack-plugin](https://github.com/kburich/css-layering-webpack-plugin) to Vite/Rollup using AI agents powered by [Warp](https://www.warp.dev/).
+
 ## License
 
 MIT
