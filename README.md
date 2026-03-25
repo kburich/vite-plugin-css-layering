@@ -11,6 +11,17 @@ A Vite/Rollup plugin that automatically wraps CSS modules in named [CSS Cascade 
 - ⚡ **Zero runtime overhead** - All transformations happen at build time
 - 🛡️ **TypeScript support** - Full type definitions included
 
+## Why CSS Cascade Layers?
+
+CSS Cascade Layers provide a way to organize CSS with explicit specificity control:
+
+- **Better organization** - Group related styles together
+- **Specificity control** - Layer order determines precedence, not specificity
+- **Easier overrides** - Later layers override earlier ones, regardless of selector specificity
+- **Framework integration** - Cleanly separate third-party, base, component, and utility styles
+
+Learn more: [MDN: CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
+
 ## Installation
 
 ```bash
@@ -282,17 +293,6 @@ cssLayeringPlugin({
   ],
 })
 ```
-
-## Why CSS Cascade Layers?
-
-CSS Cascade Layers provide a way to organize CSS with explicit specificity control:
-
-- **Better organization** - Group related styles together
-- **Specificity control** - Layer order determines precedence, not specificity
-- **Easier overrides** - Later layers override earlier ones, regardless of selector specificity
-- **Framework integration** - Cleanly separate third-party, base, component, and utility styles
-
-Learn more: [MDN: CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
 
 ## Browser Support
 
