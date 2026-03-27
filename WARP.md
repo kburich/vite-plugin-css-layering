@@ -31,10 +31,10 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 
 ### High-level structure
 
-This repository implements a **Vite/Rollup plugin** that wraps CSS (and Sass) modules in named CSS cascade layers, driven by glob patterns. The project is written in TypeScript and compiled to ESM in `dist/` for publishing.
+This repository implements a **Vite plugin** that wraps CSS (and Sass) modules in named CSS cascade layers, driven by glob patterns. The project is written in TypeScript and compiled to ESM in `dist/` for publishing.
 
 Key pieces:
-- `src/index.ts` — main plugin implementation (`cssLayeringPlugin`) that exports a standard Vite/Rollup plugin.
+- `src/index.ts` — main plugin implementation (`cssLayeringPlugin`) that exports a standard Vite plugin.
 - `tests/plugin.integration.test.ts` — 5 tests for HTML injection behavior (matching webpack plugin).
 - `tests/plugin.css.integration.test.ts` — 12 fixture-based tests for CSS transformation (matching webpack plugin).
 - `tests/fixtures/` — Test fixtures copied from webpack plugin (input CSS/SCSS and expected outputs).
@@ -43,9 +43,9 @@ Key pieces:
 
 ### Plugin Design (`src/index.ts`)
 
-The `cssLayeringPlugin` function returns a Vite/Rollup plugin object with three main hooks:
+The `cssLayeringPlugin` function returns a Vite plugin object with three main hooks:
 
-- **`transform` hook (standard Rollup)**
+- **`transform` hook**
   - Intercepts CSS/SCSS files based on the `test: /\.(sa|sc|c)ss$/` pattern.
   - Uses `minimatch` to match file paths against configured layer patterns.
   - Wraps matching files in `@layer {name} { ... }` blocks via `wrapSourceInLayer`.
@@ -57,9 +57,8 @@ The `cssLayeringPlugin` function returns a Vite/Rollup plugin object with three 
     - `"style"` (default): injects as a `<style>` tag with optional `nonce` attribute.
     - `"link"`: injects as a `<link>` tag pointing to the emitted CSS asset.
     - `"none"`: no HTML injection.
-  - This hook is ignored in pure Rollup environments (no HTML handling).
 
-- **`generateBundle` hook (standard Rollup)**
+- **`generateBundle` hook**
   - When `injectOrderAs === "link"`, emits the layer order declaration as a separate CSS file.
   - Uses `this.emitFile()` to create the asset at the configured `publicPath`.
 
@@ -120,6 +119,4 @@ The `cssLayeringPlugin` function returns a Vite/Rollup plugin object with three 
 
 ### Compatibility notes
 
-- The plugin works in both **Vite** and **Rollup** environments.
-- Vite-specific features (HTML injection via `transformIndexHtml`) are gracefully ignored in pure Rollup setups.
-- For Rollup without HTML handling, users should set `injectOrderAs: "link"` and manually add the `<link>` tag, or use `injectOrderAs: "none"`.
+- The plugin is designed for **Vite** environments.

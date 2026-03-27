@@ -1,12 +1,11 @@
-# CSS Layering Plugin for Vite and Rollup
+# CSS Layering Plugin for Vite
 
-A Vite/Rollup plugin that automatically wraps CSS modules in named [CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) based on glob patterns, helping you manage CSS specificity and organization.
+A Vite plugin that automatically wraps CSS modules in named [CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) based on glob patterns, helping you manage CSS specificity and organization.
 
 ## Features
 
 - 🎯 **Glob-based layer assignment** - Automatically wrap CSS files in layers based on path patterns
-- 🔄 **Works with Vite and Rollup** - Uses standard Rollup hooks for maximum compatibility
-- 📝 **Automatic layer order injection** - Injects `@layer` order declaration into HTML (Vite) or as a separate asset (Rollup)
+- 📝 **Automatic layer order injection** - Injects `@layer` order declaration into HTML
 - 🎨 **Sass/SCSS support** - Preserves `@use` statements at the top of files
 - ⚡ **Zero runtime overhead** - All transformations happen at build time
 - 🛡️ **TypeScript support** - Full type definitions included
@@ -54,27 +53,6 @@ export default defineConfig({
     }),
   ],
 });
-```
-
-### Rollup
-
-Add the plugin to your `rollup.config.js`:
-
-```javascript
-import { cssLayeringPlugin } from 'vite-plugin-css-layering';
-
-export default {
-  plugins: [
-    cssLayeringPlugin({
-      layers: [
-        { path: '**/reset.css', name: 'reset' },
-        { path: '**/base/**/*.css', name: 'base' },
-        { path: '**/components/**/*.css', name: 'components' },
-      ],
-      injectOrderAs: 'link', // Emit layer order as separate CSS file
-    }),
-  ],
-};
 ```
 
 ## Configuration
@@ -131,7 +109,7 @@ layers: [
 Controls how the `@layer` order declaration is injected:
 
 - **`'style'`** (default) - Injects as a `<style>` tag in HTML `<head>` (Vite only)
-- **`'link'`** - Emits as a separate CSS file and injects a `<link>` tag (works in both Vite and Rollup)
+- **`'link'`** - Emits as a separate CSS file and injects a `<link>` tag
 - **`'none'`** - No injection; you must manually add the layer order
 
 **Example output:**
@@ -239,17 +217,6 @@ Generates:
 @layer reset, base, components, utilities;
 ```
 
-## Vite vs Rollup
-
-| Feature | Vite | Rollup |
-|---------|------|--------|
-| CSS transformation | ✅ | ✅ |
-| HTML injection (`style`) | ✅ | ❌ (no HTML handling) |
-| HTML injection (`link`) | ✅ | ⚠️ (emits asset, manual HTML link) |
-| Asset emission | ✅ | ✅ |
-
-When using pure Rollup without HTML handling, set `injectOrderAs: 'link'` and manually add the `<link>` tag to your HTML, or use `injectOrderAs: 'none'` and manage the layer order yourself.
-
 ## Advanced Examples
 
 ### Framework-specific organization
@@ -306,7 +273,7 @@ For older browsers, consider using a CSS post-processor or polyfill.
 
 ## Disclaimer
 
-This plugin was created by porting my [css-layering-webpack-plugin](https://github.com/kburich/css-layering-webpack-plugin) to Vite/Rollup using AI agents powered by [Warp](https://www.warp.dev/).
+This plugin was created by porting my [css-layering-webpack-plugin](https://github.com/kburich/css-layering-webpack-plugin) to Vite using AI agents powered by [Warp](https://www.warp.dev/).
 
 ## License
 

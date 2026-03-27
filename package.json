@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.3.0",
   "name": "vite-plugin-css-layering",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,7 +35,7 @@
       "optional": true
     }
   },
-  "description": "Wrap CSS in cascade layers for Vite and Rollup.",
+  "description": "Wrap CSS in cascade layers for Vite.",
   "engines": {
     "node": ">=18.0.0"
   },

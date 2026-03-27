@@ -71,10 +71,10 @@ function matchesLayer(
 }
 
 /**
- * CSS Layering Plugin for Vite and Rollup.
+ * CSS Layering Plugin for Vite.
  * 
  * Wraps CSS modules in named cascade layers based on glob patterns,
- * and injects the layer order declaration into HTML (Vite) or as a separate asset.
+ * and injects the layer order declaration into HTML.
  */
 export function cssLayeringPlugin(
   options: CSSLayeringPluginOptions,
@@ -101,7 +101,6 @@ export function cssLayeringPlugin(
 
     /**
      * Transform hook - intercepts CSS/SCSS files and wraps them in @layer blocks.
-     * This is a standard Rollup hook, so it works in both Vite and pure Rollup.
      */
     transform(code: string, id: string) {
       // Only process CSS/SCSS files
@@ -124,7 +123,6 @@ export function cssLayeringPlugin(
 
     /**
      * transformIndexHtml hook - injects layer order into HTML.
-     * This is a Vite-specific hook and will be ignored in pure Rollup environments.
      */
     transformIndexHtml(): IndexHtmlTransformResult | undefined {
       if (injectOrderAs === "none") {
@@ -158,7 +156,6 @@ export function cssLayeringPlugin(
 
     /**
      * generateBundle hook - emits the layer order as a separate CSS asset when using link mode.
-     * This is a standard Rollup hook, so it works in both Vite and pure Rollup.
      */
     generateBundle() {
       if (injectOrderAs === "link") {
