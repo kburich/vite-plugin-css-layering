@@ -73,7 +73,7 @@ function matchesLayer(
 /**
  * CSS Layering Plugin for Vite.
  * 
- * Wraps CSS modules in named cascade layers based on glob patterns,
+ * Wraps CSS in named cascade layers based on glob patterns,
  * and injects the layer order declaration into HTML.
  */
 export function cssLayeringPlugin(
