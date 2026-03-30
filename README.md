@@ -1,6 +1,6 @@
 # CSS Layering Plugin for Vite
 
-A Vite plugin that automatically wraps CSS modules in named [CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) based on glob patterns, helping you manage CSS specificity and organization.
+A Vite plugin that automatically wraps CSS in named [CSS Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) based on glob patterns, helping you manage CSS specificity and organization.
 
 ## Features
 

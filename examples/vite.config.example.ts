@@ -17,7 +17,7 @@ export default defineConfig({
         // Component layer - reusable components
         { 
           path: '**/components/**/*.css',
-          exclude: '**/components/**/*.module.css', // Exclude CSS modules
+          exclude: '**/components/**/*.module.css', // Exclude CSS Module files
           name: 'components' 
         },
         
