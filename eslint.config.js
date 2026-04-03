@@ -4,6 +4,9 @@ import tsParser from "@typescript-eslint/parser";
 import prettierConfig from "eslint-config-prettier";
 
 export default [
+  {
+    ignores: ["dist/", "example/dist/"],
+  },
   js.configs.recommended,
   {
     files: ["**/*.ts"],
@@ -12,6 +15,10 @@ export default [
       parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
+      },
+      globals: {
+        __dirname: "readonly",
+        __filename: "readonly",
       },
     },
     plugins: {
