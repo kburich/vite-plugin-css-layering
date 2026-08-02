@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-02T16:33:57+0000",
+  "generated": "2026-08-02T16:41:54+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-02T16:33:57Z",
+    "timestamp": "2026-08-02T16:41:53Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
