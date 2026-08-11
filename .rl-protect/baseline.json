@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-10T08:08:15+0000",
+  "generated": "2026-08-11T07:41:29+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-10T08:08:14Z",
+    "timestamp": "2026-08-11T07:41:28Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -3356,6 +3356,16 @@
       "score": 7.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-arm64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-39836",
@@ -3406,6 +3416,16 @@
       "score": 5.300000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-arm64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-42507",
@@ -5454,6 +5474,16 @@
       "score": 7.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-39836",
@@ -5495,6 +5525,16 @@
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-42505",
       "status": "fail",
@@ -8474,6 +8514,16 @@
     {
       "purl": "pkg:npm/%40esbuild/netbsd-x64@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/netbsd-x64@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-39836",
       "status": "fail",
       "count": 1,
@@ -8510,6 +8560,16 @@
       "title": "Decoding maliciously-crafted MIME headers can consume excessive CPU in unspecified products.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/netbsd-x64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
     },
     {
       "purl": "pkg:npm/%40esbuild/netbsd-x64@0.21.5",
@@ -10798,6 +10858,16 @@
       "score": 7.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/win32-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/win32-arm64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-39836",
@@ -10839,6 +10909,16 @@
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-arm64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-arm64@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-42505",
       "status": "fail",
@@ -12186,6 +12266,26 @@
     {
       "purl": "pkg:npm/%40esbuild/win32-x64@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-39836",
       "status": "fail",
       "count": 1,
@@ -12222,6 +12322,26 @@
       "title": "Decoding maliciously-crafted MIME headers can consume excessive CPU in unspecified products.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-x64@0.21.5",
