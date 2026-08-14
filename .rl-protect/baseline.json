@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-13T07:57:06+0000",
+  "generated": "2026-08-14T07:54:10+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-13T07:57:05Z",
+    "timestamp": "2026-08-14T07:54:09Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -315,7 +315,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -590,6 +590,16 @@
       "score": 7.5
     },
     {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-39822",
@@ -638,6 +648,16 @@
       "title": "Decoding maliciously-crafted MIME headers can consume excessive CPU in unspecified products.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
     },
     {
       "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
@@ -6599,7 +6619,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -6894,6 +6914,16 @@
       "score": 7.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-riscv64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39822",
+      "status": "fail",
+      "count": 1,
+      "title": "os.Root improperly follows symlinks to locations outside of the Root on Unix systems.",
+      "severity": "standard",
+      "score": 7.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-riscv64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-39836",
@@ -6935,6 +6965,16 @@
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-riscv64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-42505",
+      "status": "fail",
+      "count": 1,
+      "title": "Encrypted Client Hello handshakes can be de-anonymized by a passive network observer due to disclosure of pre-shared key identities.",
+      "severity": "standard",
+      "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-riscv64@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-42505",
       "status": "fail",
