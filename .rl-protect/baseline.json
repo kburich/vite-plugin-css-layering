@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-15T07:01:16+0000",
+  "generated": "2026-08-16T07:03:05+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-15T07:01:15Z",
+    "timestamp": "2026-08-16T07:03:04Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -3809,7 +3809,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -9247,7 +9247,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -11371,7 +11371,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
