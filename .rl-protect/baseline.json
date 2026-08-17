@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-16T07:03:05+0000",
+  "generated": "2026-08-17T07:19:17+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-16T07:03:04Z",
+    "timestamp": "2026-08-17T07:19:16Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -2373,7 +2373,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -3091,7 +3091,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -3819,7 +3819,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -9257,7 +9257,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -12834,7 +12834,7 @@
       "id": "CVE-2026-47429",
       "status": "fail",
       "count": 1,
-      "title": "CVE-2026-47429",
+      "title": "Vitest is vulnerable to path traversal, allowing arbitrary file read and execution.",
       "severity": "standard",
       "score": 9.800000190734863
     },
@@ -12857,6 +12857,16 @@
       "title": "Launch-editor allows arbitrary path access, including Windows UNC paths, potentially leaking NTLMv2 password hashes.",
       "severity": "standard",
       "score": 5.5
+    },
+    {
+      "purl": "pkg:npm/vitest@2.1.9",
+      "category": "vulnerabilities",
+      "id": "GHSA-p63j-vcc4-9vmv",
+      "status": "fail",
+      "count": 1,
+      "title": "@vitest/browser is vulnerable to a bypass of the file-access permission gate in Browser Mode provider commands.",
+      "severity": "standard",
+      "score": 9.399999618530273
     }
   ]
 }
