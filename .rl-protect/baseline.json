@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-22T07:03:11+0000",
+  "generated": "2026-08-23T07:05:32+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-08-22T07:03:10Z",
+    "timestamp": "2026-08-23T07:05:31Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -5909,7 +5909,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -11361,7 +11361,7 @@
       "id": "CVE-2025-61726",
       "status": "fail",
       "count": 1,
-      "title": "The net/url package is vulnerable to excessive memory consumption due to unlimited query parameters in a query.",
+      "title": "The net/url package is vulnerable to excessive memory consumption due to a lack of limit on the number of query parameters in a query.",
       "severity": "standard",
       "score": 7.5
     },
@@ -12662,11 +12662,21 @@
       "purl": "pkg:npm/js-yaml@4.1.1",
       "category": "vulnerabilities",
       "id": "CVE-2026-53550",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "js-yaml is vulnerable to a denial of service attack due to quadratic-complexity in merge key handling via repeated aliases.",
       "severity": "standard",
       "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/js-yaml@4.1.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-59869",
+      "status": "fail",
+      "count": 1,
+      "title": "js-yaml is vulnerable to a quadratic CPU time attack when parsing documents with chained mappings using merge keys.",
+      "severity": "standard",
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/picomatch@2.3.1",
