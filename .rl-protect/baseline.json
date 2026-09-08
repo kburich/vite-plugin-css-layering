@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-09-07T12:44:47+0000",
+  "generated": "2026-09-08T11:27:12+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-09-07T12:44:46Z",
+    "timestamp": "2026-09-08T11:27:11Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -5206,6 +5206,46 @@
     {
       "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-33818",
+      "status": "fail",
+      "count": 1,
+      "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-33818",
+      "status": "fail",
+      "count": 1,
+      "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39821",
+      "status": "fail",
+      "count": 1,
+      "title": "idna package incorrectly accepts Punycode-encoded labels, leading to potential privilege escalation.",
+      "severity": "standard",
+      "score": 9.600000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39821",
+      "status": "fail",
+      "count": 1,
+      "title": "idna package incorrectly accepts Punycode-encoded labels, leading to potential privilege escalation.",
+      "severity": "standard",
+      "score": 9.600000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-39822",
       "status": "fail",
       "count": 1,
@@ -5302,6 +5342,66 @@
       "title": "Net/textproto functions may include user input in error messages, potentially allowing attackers to inject misleading content.",
       "severity": "standard",
       "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56853",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server reads bytes from new connections without applying ReadHeaderTimeout, potentially leading to issues.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56853",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server reads bytes from new connections without applying ReadHeaderTimeout, potentially leading to issues.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56860",
+      "status": "fail",
+      "count": 1,
+      "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56860",
+      "status": "fail",
+      "count": 1,
+      "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56862",
+      "status": "fail",
+      "count": 1,
+      "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-loong64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56862",
+      "status": "fail",
+      "count": 1,
+      "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
+      "severity": "standard",
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
@@ -5906,6 +6006,26 @@
     {
       "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-33818",
+      "status": "fail",
+      "count": 1,
+      "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39821",
+      "status": "fail",
+      "count": 1,
+      "title": "idna package incorrectly accepts Punycode-encoded labels, leading to potential privilege escalation.",
+      "severity": "standard",
+      "score": 9.600000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-39822",
       "status": "fail",
       "count": 1,
@@ -6002,6 +6122,36 @@
       "title": "Net/textproto functions may include user input in error messages, potentially allowing attackers to inject misleading content.",
       "severity": "standard",
       "score": 5.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56853",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server reads bytes from new connections without applying ReadHeaderTimeout, potentially leading to issues.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56860",
+      "status": "fail",
+      "count": 1,
+      "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-mips64el@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56862",
+      "status": "fail",
+      "count": 1,
+      "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
+      "severity": "standard",
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-ppc64@0.21.5",
@@ -8082,7 +8232,27 @@
       "score": 7.5
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-33818",
+      "status": "fail",
+      "count": 1,
+      "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-x64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39821",
+      "status": "fail",
+      "count": 1,
+      "title": "idna package incorrectly accepts Punycode-encoded labels, leading to potential privilege escalation.",
+      "severity": "standard",
+      "score": 9.600000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-39821",
       "status": "fail",
@@ -8202,6 +8372,16 @@
       "score": 7.5
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56853",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server reads bytes from new connections without applying ReadHeaderTimeout, potentially leading to issues.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-x64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-56860",
@@ -8212,7 +8392,27 @@
       "score": 5.900000095367432
     },
     {
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56860",
+      "status": "fail",
+      "count": 1,
+      "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
       "purl": "pkg:npm/%40esbuild/linux-x64@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56862",
+      "status": "fail",
+      "count": 1,
+      "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-x64@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-56862",
       "status": "fail",
@@ -13424,9 +13624,9 @@
       "purl": "pkg:npm/brace-expansion@5.0.4",
       "category": "vulnerabilities",
       "id": "CVE-2026-13149",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
-      "title": "brace-expansion is vulnerable to denial of service via exponential-time complexity in the expand function.",
+      "title": "brace-expansion is vulnerable to denial of service via exponential-time expansion of consecutive non-expanding {} groups.",
       "severity": "standard",
       "score": 7.699999809265137
     },
@@ -13444,7 +13644,7 @@
       "purl": "pkg:npm/brace-expansion@5.0.4",
       "category": "vulnerabilities",
       "id": "CVE-2026-14257",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "brace-expansion is vulnerable to denial of service via memory exhaustion due to unbounded expansion length.",
       "severity": "standard",
@@ -13464,7 +13664,7 @@
       "purl": "pkg:npm/brace-expansion@5.0.4",
       "category": "vulnerabilities",
       "id": "CVE-2026-33750",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "The brace-expansion library is vulnerable to a denial of service due to excessive looping caused by a zero-step value in a brace pattern.",
       "severity": "standard",
@@ -13474,11 +13674,21 @@
       "purl": "pkg:npm/brace-expansion@5.0.4",
       "category": "vulnerabilities",
       "id": "CVE-2026-45149",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "brace-expansion library is vulnerable to a denial-of-service (DoS) attack due to improper allocation of resources when expanding large numeric ranges.",
       "severity": "standard",
       "score": 6.5
+    },
+    {
+      "purl": "pkg:npm/brace-expansion@5.0.4",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-69152",
+      "status": "fail",
+      "count": 1,
+      "title": "The brace-expansion library is vulnerable to memory exhaustion and event loop blocking due to insufficient maxLength checks in the expand function.",
+      "severity": "standard",
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/debug@4.4.3",
