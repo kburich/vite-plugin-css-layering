@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-09-09T11:32:33+0000",
+  "generated": "2026-09-10T11:29:21+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-09-09T11:32:32Z",
+    "timestamp": "2026-09-10T11:29:20Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -12786,6 +12786,16 @@
       "score": 7.5
     },
     {
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-33818",
+      "status": "fail",
+      "count": 1,
+      "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
       "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
       "category": "vulnerabilities",
       "id": "CVE-2026-33818",
@@ -12794,6 +12804,16 @@
       "title": "Unmarshal is vulnerable to stack exhaustion due to deeply-nested, recursive structures.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39821",
+      "status": "fail",
+      "count": 1,
+      "title": "idna package incorrectly accepts Punycode-encoded labels, leading to potential privilege escalation.",
+      "severity": "standard",
+      "score": 9.600000381469727
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
@@ -12906,7 +12926,7 @@
       "score": 5.300000190734863
     },
     {
-      "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-56853",
       "status": "fail",
@@ -12918,12 +12938,42 @@
     {
       "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
       "category": "vulnerabilities",
+      "id": "CVE-2026-56853",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server reads bytes from new connections without applying ReadHeaderTimeout, potentially leading to issues.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-56860",
       "status": "fail",
       "count": 1,
       "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
       "severity": "standard",
       "score": 5.900000095367432
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56860",
+      "status": "fail",
+      "count": 1,
+      "title": "Path resolution in unspecified product has quadratic time complexity and high memory allocation overhead due to improper handling of relative paths containing parent directory segments.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/win32-ia32@0.21.5",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56862",
+      "status": "fail",
+      "count": 1,
+      "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
+      "severity": "standard",
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-ia32@0.25.12",
@@ -13904,7 +13954,17 @@
       "id": "CVE-2026-59869",
       "status": "fail",
       "count": 1,
-      "title": "js-yaml is vulnerable to a quadratic CPU time attack when parsing documents with chained mappings using merge keys.",
+      "title": "js-yaml is vulnerable to a denial of service due to inefficient worst-case computational complexity when parsing YAML documents with merge-key chains.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/js-yaml@4.1.1",
+      "category": "vulnerabilities",
+      "id": "GHSA-5p4m-2wfm-xmqj",
+      "status": "fail",
+      "count": 1,
+      "title": "JS-YAML has a quadratic CPU consumption vulnerability in !!omap resolution.",
       "severity": "standard",
       "score": 7.5
     },
