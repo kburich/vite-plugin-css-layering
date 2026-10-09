@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-10-06T13:25:14+0000",
+  "generated": "2026-10-09T13:26:06+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-10-06T13:25:13Z",
+    "timestamp": "2026-10-09T13:26:05Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -14242,6 +14242,16 @@
       "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40humanfs/node@0.16.7",
+      "category": "vulnerabilities",
+      "id": "GHSA-p498-v437-472g",
+      "status": "warn",
+      "count": 1,
+      "title": "humanfs is vulnerable to a recursive copy issue that follows symlinked files and copies data from outside the source tree, allowing for a Path Traversal vulnerability.",
+      "severity": "standard",
+      "score": 5.699999809265137
     },
     {
       "purl": "pkg:npm/%40rollup/rollup-android-arm-eabi@4.59.0",
