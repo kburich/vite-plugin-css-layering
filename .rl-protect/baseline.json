@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-10-09T13:26:06+0000",
+  "generated": "2026-10-10T12:41:52+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-10-09T13:26:05Z",
+    "timestamp": "2026-10-10T12:41:51Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -14369,6 +14369,46 @@
       "count": 1,
       "title": "1 misconfigured toolchains detected",
       "severity": "standard"
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-39365",
+      "status": "warn",
+      "count": 1,
+      "title": "Vite is vulnerable to path traversal in optimized dependencies' .map handling, allowing retrieval of files outside the project root.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-53571",
+      "status": "warn",
+      "count": 1,
+      "title": "Vite is vulnerable to a bypass of its server.fs.deny feature on Windows, allowing access to sensitive files.",
+      "severity": "standard",
+      "score": 8.199999809265137
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-53632",
+      "status": "warn",
+      "count": 1,
+      "title": "Launch-editor allows arbitrary path access, including Windows UNC paths, potentially leaking NTLMv2 password hashes.",
+      "severity": "standard",
+      "score": 5.5
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-84373",
+      "status": "warn",
+      "count": 1,
+      "title": "Vitest is vulnerable to path traversal and arbitrary file read via the @vitest/mocker redirect mock.",
+      "severity": "standard",
+      "score": 5.900000095367432
     },
     {
       "purl": "pkg:npm/brace-expansion@1.1.12",
