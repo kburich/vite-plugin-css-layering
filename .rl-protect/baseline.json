@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-10-10T12:41:52+0000",
+  "generated": "2026-10-14T12:03:45+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-10-10T12:41:51Z",
+    "timestamp": "2026-10-14T12:03:44Z",
     "catalogue": 6,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -14565,6 +14565,16 @@
       "status": "fail",
       "count": 1,
       "title": "js-yaml is vulnerable to a denial of service due to inefficient worst-case computational complexity when parsing YAML documents with merge-key chains.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/js-yaml@4.1.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-84375",
+      "status": "fail",
+      "count": 1,
+      "title": "js-yaml is vulnerable to a CPU consumption issue due to inefficient merge key processing in lib/js-yaml/loader.js and lib/loader.js.",
       "severity": "standard",
       "score": 7.5
     },
