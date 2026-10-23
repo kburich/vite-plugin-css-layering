@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "generated": "2026-10-14T12:03:45+0000",
+  "generated": "2026-10-23T11:48:31+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-10-14T12:03:44Z",
-    "catalogue": 6,
+    "timestamp": "2026-10-23T11:48:30Z",
+    "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
   },
@@ -790,6 +790,106 @@
       "score": 7.5
     },
     {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56866",
+      "status": "fail",
+      "count": 1,
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78659",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 servers are vulnerable to a memory exhaustion attack via Trailer headers.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78660",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 implementation in unspecified product is vulnerable to response smuggling via malformed framing-related headers when acting as a reverse proxy.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78663",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server is vulnerable to connection-level flow control bypass due to double refund of connection-level flow control for the same data.",
+      "severity": "standard",
+      "score": 9.100000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78667",
+      "status": "fail",
+      "count": 1,
+      "title": "FileServer, ServeContent, and ServeFile can consume excessive CPU when parsing a Range header with a large number of small ranges.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78669",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 clients and servers are vulnerable to excessive CPU consumption via large numbers of streams and small SETTINGS frames.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-94439",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP server improperly continues to read and serve requests from a connection after sending a 2xx response to an HTTP/1 CONNECT request, potentially leading to request smuggling.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-94440",
+      "status": "fail",
+      "count": 1,
+      "title": "Parsing a multipart form can bypass memory limits in unspecified product.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-97031",
+      "status": "fail",
+      "count": 1,
+      "title": "A server process is vulnerable to memory exhaustion due to multiple ECH outer extension references.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-97032",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
+      "severity": "standard",
+      "score": 5.900000095367432
+    },
+    {
       "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2023-45288",
@@ -11818,6 +11918,106 @@
       "title": "TLS server is vulnerable to indefinite key derivation operations due to malicious KeyUpdate messages.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-56866",
+      "status": "fail",
+      "count": 1,
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78659",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 servers are vulnerable to a memory exhaustion attack via Trailer headers.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78660",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 implementation in unspecified product is vulnerable to response smuggling via malformed framing-related headers when acting as a reverse proxy.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78663",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 server is vulnerable to connection-level flow control bypass due to double refund of connection-level flow control for the same data.",
+      "severity": "standard",
+      "score": 9.100000381469727
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78667",
+      "status": "fail",
+      "count": 1,
+      "title": "FileServer, ServeContent, and ServeFile can consume excessive CPU when parsing a Range header with a large number of small ranges.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-78669",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 clients and servers are vulnerable to excessive CPU consumption via large numbers of streams and small SETTINGS frames.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-94439",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP server improperly continues to read and serve requests from a connection after sending a 2xx response to an HTTP/1 CONNECT request, potentially leading to request smuggling.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-94440",
+      "status": "fail",
+      "count": 1,
+      "title": "Parsing a multipart form can bypass memory limits in unspecified product.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-97031",
+      "status": "fail",
+      "count": 1,
+      "title": "A server process is vulnerable to memory exhaustion due to multiple ECH outer extension references.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-97032",
+      "status": "fail",
+      "count": 1,
+      "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
+      "severity": "standard",
+      "score": 5.900000095367432
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-arm64@0.21.5",
@@ -14499,6 +14699,16 @@
       "title": "The brace-expansion library is vulnerable to memory exhaustion and event loop blocking due to insufficient maxLength checks in the expand function.",
       "severity": "standard",
       "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/braces@3.0.3",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-93687",
+      "status": "warn",
+      "count": 1,
+      "title": "Braces is vulnerable to a stack overflow vulnerability through deeply nested patterns, allowing attackers to exhaust the call stack and terminate the Node.js process.",
+      "severity": "standard",
+      "score": 8.699999809265137
     },
     {
       "purl": "pkg:npm/debug@4.4.3",
