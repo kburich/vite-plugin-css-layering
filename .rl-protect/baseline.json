@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-04T14:41:26+0000",
+  "generated": "2026-11-06T14:24:22+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-04T14:41:25Z",
+    "timestamp": "2026-11-06T14:24:21Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -18029,6 +18029,66 @@
       "count": 1,
       "title": "1 misconfigured toolchains detected",
       "severity": "standard"
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112942",
+      "status": "warn",
+      "count": 1,
+      "title": "launch-editor is vulnerable to OS command injection on Windows due to a bypass of the `fs.existsSync()` existence check.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112943",
+      "status": "warn",
+      "count": 1,
+      "title": "launch-editor does not properly escape special characters in Windows command arguments, allowing potential code execution.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112944",
+      "status": "warn",
+      "count": 1,
+      "title": "launch-editor is vulnerable to arbitrary command execution due to editor CLI flag misinterpretation when handling files with line numbers.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112945",
+      "status": "warn",
+      "count": 1,
+      "title": "Vite is vulnerable to cross-origin script execution through custom middleware when it passes an unchanged browser request URL to server.transformIndexHtml.",
+      "severity": "standard",
+      "score": 2.0999999046325684
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112946",
+      "status": "warn",
+      "count": 1,
+      "title": "Vite is vulnerable to a directory traversal vulnerability, allowing access to files outside the project root on non-Windows development servers.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/%40vitest/mocker@2.1.9",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112949",
+      "status": "warn",
+      "count": 1,
+      "title": "Vitest is vulnerable to code injection via unauthenticated manual mock registration, allowing an attacker to execute arbitrary JavaScript on the development-server origin.",
+      "severity": "standard",
+      "score": 4.699999809265137
     },
     {
       "purl": "pkg:npm/%40vitest/mocker@2.1.9",
