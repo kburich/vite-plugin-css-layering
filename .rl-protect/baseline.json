@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-08T13:36:46+0000",
+  "generated": "2026-11-09T16:35:35+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-08T13:36:45Z",
+    "timestamp": "2026-11-09T16:35:34Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -18432,7 +18432,7 @@
       "purl": "pkg:npm/micromatch@4.0.8",
       "category": "vulnerabilities",
       "id": "CVE-2026-93687",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "Braces is vulnerable to a stack overflow vulnerability through deeply nested patterns, allowing attackers to exhaust the call stack and terminate the Node.js process.",
       "severity": "standard",
@@ -18564,7 +18564,7 @@
       "id": "CVE-2026-104848",
       "status": "fail",
       "count": 1,
-      "title": "Tinypool is vulnerable to code execution through polluted Object.prototype properties.",
+      "title": "Tinypool is vulnerable to prototype pollution, allowing an attacker to execute arbitrary code with the host process's privileges.",
       "severity": "standard",
       "score": 9.5
     },
@@ -18574,9 +18574,59 @@
       "id": "CVE-2026-104849",
       "status": "fail",
       "count": 1,
-      "title": "Tinypool is vulnerable to prototype pollution, allowing an attacker to load arbitrary JavaScript and access task data with elevated privileges.",
+      "title": "Tinypool is vulnerable to prototype pollution, allowing an attacker to load arbitrary JavaScript and access task data with elevated privileges via the run function.",
       "severity": "standard",
       "score": 9.5
+    },
+    {
+      "purl": "pkg:npm/vite@6.4.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112942",
+      "status": "fail",
+      "count": 1,
+      "title": "launch-editor is vulnerable to OS command injection on Windows due to a bypass of the `fs.existsSync()` existence check.",
+      "severity": "standard",
+      "score": 7.5
+    },
+    {
+      "purl": "pkg:npm/vite@6.4.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112943",
+      "status": "fail",
+      "count": 1,
+      "title": "launch-editor does not properly escape special characters in Windows command arguments, allowing potential code execution.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/vite@6.4.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112944",
+      "status": "fail",
+      "count": 1,
+      "title": "launch-editor is vulnerable to arbitrary command execution due to editor CLI flag misinterpretation when handling files with line numbers.",
+      "severity": "standard",
+      "score": 6.300000190734863
+    },
+    {
+      "purl": "pkg:npm/vite@6.4.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112945",
+      "status": "fail",
+      "count": 1,
+      "title": "Vite is vulnerable to cross-origin script execution through custom middleware when it passes an unchanged browser request URL to server.transformIndexHtml.",
+      "severity": "standard",
+      "score": 2.0999999046325684
+    },
+    {
+      "purl": "pkg:npm/vite@6.4.1",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-112946",
+      "status": "fail",
+      "count": 1,
+      "title": "Vite is vulnerable to a directory traversal vulnerability, allowing access to files outside the project root on non-Windows development servers.",
+      "severity": "standard",
+      "score": 6.300000190734863
     },
     {
       "purl": "pkg:npm/vite@6.4.1",
