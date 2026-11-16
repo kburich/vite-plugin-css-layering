@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-15T14:04:23+0000",
+  "generated": "2026-11-16T16:00:42+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-15T14:04:22Z",
+    "timestamp": "2026-11-16T16:00:41Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -1422,6 +1422,26 @@
     {
       "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-25679",
       "status": "fail",
       "count": 1,
@@ -1967,7 +1987,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.25.12",
@@ -1977,7 +1997,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/freebsd-x64@0.21.5",
@@ -5466,6 +5486,16 @@
     {
       "purl": "pkg:npm/%40esbuild/linux-ia32@0.21.5",
       "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/linux-ia32@0.21.5",
+      "category": "vulnerabilities",
       "id": "CVE-2026-25679",
       "status": "fail",
       "count": 1,
@@ -6031,7 +6061,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-ia32@0.25.12",
@@ -11294,6 +11324,16 @@
     {
       "purl": "pkg:npm/%40esbuild/netbsd-arm64@0.25.12",
       "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
+      "purl": "pkg:npm/%40esbuild/netbsd-arm64@0.25.12",
+      "category": "vulnerabilities",
       "id": "CVE-2026-25679",
       "status": "fail",
       "count": 1,
@@ -11569,7 +11609,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/netbsd-x64@0.21.5",
