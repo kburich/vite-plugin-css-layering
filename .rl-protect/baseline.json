@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-17T16:12:18+0000",
+  "generated": "2026-11-18T15:48:07+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-17T16:12:17Z",
+    "timestamp": "2026-11-18T15:48:06Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -440,6 +440,16 @@
       "score": 6.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/android-arm64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/android-arm64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-25679",
@@ -997,7 +1007,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/freebsd-arm64@0.21.5",
@@ -14520,6 +14530,16 @@
       "score": 6.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/sunos-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/sunos-x64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-25679",
@@ -15077,7 +15097,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/win32-arm64@0.21.5",
@@ -18594,7 +18614,7 @@
       "purl": "pkg:npm/braces@3.0.3",
       "category": "vulnerabilities",
       "id": "CVE-2026-93687",
-      "status": "warn",
+      "status": "fail",
       "count": 1,
       "title": "Braces is vulnerable to a stack overflow vulnerability through deeply nested patterns, allowing attackers to exhaust the call stack and terminate the Node.js process.",
       "severity": "standard",
