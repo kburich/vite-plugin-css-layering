@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-19T15:53:01+0000",
+  "generated": "2026-11-20T15:35:49+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-19T15:53:00Z",
+    "timestamp": "2026-11-20T15:35:48Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -2440,6 +2440,16 @@
       "score": 6.800000190734863
     },
     {
+      "purl": "pkg:npm/%40esbuild/freebsd-x64@0.25.12",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-111943",
+      "status": "fail",
+      "count": 1,
+      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "severity": "standard",
+      "score": 6.800000190734863
+    },
+    {
       "purl": "pkg:npm/%40esbuild/freebsd-x64@0.21.5",
       "category": "vulnerabilities",
       "id": "CVE-2026-25679",
@@ -2997,7 +3007,7 @@
       "count": 1,
       "title": "HTTP/2 servers may crash due to concurrent modification of the HPACK encoder.",
       "severity": "standard",
-      "score": 5.900000095367432
+      "score": 7.5
     },
     {
       "purl": "pkg:npm/%40esbuild/linux-arm@0.21.5",
@@ -14535,7 +14545,7 @@
       "id": "CVE-2026-111943",
       "status": "fail",
       "count": 1,
-      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "title": "Go's crypto/x509 Verify function may return an error due to untrustworthy intermediate certificates.",
       "severity": "standard",
       "score": 6.800000190734863
     },
@@ -14915,7 +14925,7 @@
       "id": "CVE-2026-56866",
       "status": "fail",
       "count": 1,
-      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when sending HTTP/1 CONNECT requests with a non-empty Request.Body.",
       "severity": "standard",
       "score": 7.5
     },
