@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-21T14:46:32+0000",
+  "generated": "2026-11-22T14:42:35+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-21T14:46:31Z",
+    "timestamp": "2026-11-22T14:42:34Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -6559,7 +6559,7 @@
       "id": "CVE-2026-111943",
       "status": "fail",
       "count": 1,
-      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "title": "Go's crypto/x509 Verify function may return an error due to untrustworthy intermediate certificates.",
       "severity": "standard",
       "score": 6.800000190734863
     },
@@ -6959,7 +6959,7 @@
       "id": "CVE-2026-56866",
       "status": "fail",
       "count": 1,
-      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when sending HTTP/1 CONNECT requests with a non-empty Request.Body.",
       "severity": "standard",
       "score": 7.5
     },
@@ -7569,7 +7569,7 @@
       "id": "CVE-2026-111943",
       "status": "fail",
       "count": 1,
-      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "title": "Go's crypto/x509 Verify function may return an error due to untrustworthy intermediate certificates.",
       "severity": "standard",
       "score": 6.800000190734863
     },
@@ -7969,7 +7969,7 @@
       "id": "CVE-2026-56866",
       "status": "fail",
       "count": 1,
-      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when sending HTTP/1 CONNECT requests with a non-empty Request.Body.",
       "severity": "standard",
       "score": 7.5
     },
@@ -18744,9 +18744,19 @@
       "id": "CVE-2026-93687",
       "status": "fail",
       "count": 1,
-      "title": "Braces is vulnerable to a stack overflow vulnerability through deeply nested patterns, allowing attackers to exhaust the call stack and terminate the Node.js process.",
+      "title": "Braces contains a stack overflow vulnerability in recursive AST walkers.",
       "severity": "standard",
       "score": 8.699999809265137
+    },
+    {
+      "purl": "pkg:npm/minimatch@10.2.4",
+      "category": "vulnerabilities",
+      "id": "CVE-2026-118764",
+      "status": "warn",
+      "count": 1,
+      "title": "minimatch is vulnerable to excessive CPU and memory consumption via crafted glob expressions.",
+      "severity": "standard",
+      "score": 6.900000095367432
     },
     {
       "purl": "pkg:npm/nanoid@3.3.11",
@@ -18904,7 +18914,7 @@
       "id": "CVE-2026-112942",
       "status": "fail",
       "count": 1,
-      "title": "launch-editor is vulnerable to OS command injection on Windows due to a bypass of the `fs.existsSync()` existence check.",
+      "title": "launch-editor is vulnerable to OS command injection on Windows due to a bypass of the fs.existsSync() existence check.",
       "severity": "standard",
       "score": 7.5
     },
@@ -18964,7 +18974,7 @@
       "id": "CVE-2026-112945",
       "status": "fail",
       "count": 1,
-      "title": "Vite is vulnerable to cross-origin script execution through custom middleware when it passes an unchanged browser request URL to server.transformIndexHtml.",
+      "title": "Vite is vulnerable to cross-origin script execution through custom middleware when it fails to neutralize special characters in the request URL.",
       "severity": "standard",
       "score": 2.0999999046325684
     },
@@ -19036,7 +19046,7 @@
       "count": 1,
       "title": "Vite is vulnerable to a bypass of its server.fs.deny feature on Windows, allowing access to sensitive files.",
       "severity": "standard",
-      "score": 8.199999809265137
+      "score": 6.900000095367432
     },
     {
       "purl": "pkg:npm/vite@5.4.21",
