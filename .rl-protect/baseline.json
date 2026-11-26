@@ -1,9 +1,9 @@
 {
   "schema": 3,
-  "generated": "2026-11-25T17:23:28+0000",
+  "generated": "2026-11-26T17:03:24+0000",
   "manifest": "pnpm-lock.yaml",
   "scan": {
-    "timestamp": "2026-11-25T17:23:27Z",
+    "timestamp": "2026-11-26T17:03:24Z",
     "catalogue": 7,
     "profile": "Open Source [baseline]",
     "schema": 1
@@ -2435,7 +2435,7 @@
       "id": "CVE-2026-111943",
       "status": "fail",
       "count": 1,
-      "title": "Go's crypto/x509 Verify function may use untrustworthy intermediate certificates due to incomplete system trust store updates.",
+      "title": "Go's crypto/x509 Verify function may return an error due to untrustworthy intermediate certificates.",
       "severity": "standard",
       "score": 6.800000190734863
     },
@@ -2815,7 +2815,7 @@
       "id": "CVE-2026-56866",
       "status": "fail",
       "count": 1,
-      "title": "Go http.Transport is vulnerable to cross-user response poisoning when reusing connections that have been desynchronized by a server's non-2xx keep-alive response to a CONNECT request with a non-empty request body.",
+      "title": "Go http.Transport is vulnerable to cross-user response poisoning when sending HTTP/1 CONNECT requests with a non-empty Request.Body.",
       "severity": "standard",
       "score": 7.5
     },
